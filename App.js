@@ -25,8 +25,9 @@ export default class App extends React.Component{
    <View style={styles.container}>
      <AppHeader />
      <Image 
-        source={{uri:'https://www.shareicon.net/data/128x128/2015/08/06/80805_face_512x512.png',}}>
-     </Image>
+        source={require('./assets/speak.png')}
+        style={{width:200,height:200}}>
+      </Image>
      <TextInput 
      style={styles.inputBox}
      placeholder='Enter the word'
